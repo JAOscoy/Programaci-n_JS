@@ -107,13 +107,15 @@ let places = [
 ];
 let result = places[2].city;*/
 
+var q = 0;
+
 while(q <= 100) {
   if (q % 2 === 0)
-console.log("El numero ganador es " + q);
+console.log("Los numeros pares en q son " + q);
 q++;
 }
 
 for(var o = 0; o <= 100; o++) {
   if(o % 2 ==! 0)
-  console.log("El numero ganador es " + o)
+  console.log("El numeros impares en o son " + o)
 }

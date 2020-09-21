@@ -73,9 +73,10 @@ for (var i = 2; i <= counter; i++) {
 
 var i = 0;
 
-while(q <= 100) {
-    if (q % 2 === 0)
-	console.log("El numero ganador es " + q);
+while(q <= exponente) {
+    var x = 1
+    x = x * base
+    return = x;
 	q++;
 }
 
@@ -105,7 +106,7 @@ let places = [
   { city: 'Paris', europe: true },
   { city: 'Sacramento', europe: false }
 ];
-let result = places[2].city;*/
+let result = places[2].city;
 
 var q = 0;
 
@@ -119,3 +120,81 @@ for(var o = 0; o <= 100; o++) {
   if(o % 2 ==! 0)
   console.log("El numeros impares en o son " + o)
 }
+
+function potencia(base, exponente) {
+    var valor = base ** exponente;
+    console.log('El valor es ' + valor)
+}
+
+for(var exp = 0; exp <= 1000; exp++){
+  var valor = base ** exp
+  console.log("El valor es " + valor)
+}
+
+x = Number(prompt("Elige un primer numero"));
+y = Number(prompt("Elige el segundo numero"));
+var Entonces;
+
+function comparacion(x, y){
+  if (x > y) {
+    console.log("El primer numero es mayor")
+   } else if (x = y) {
+    Econsole.log("Son iguales")
+   } else {
+     console.log("El segundo numero es mayor")
+   }
+}*
+valor1 = Number(prompt("Ingresa un valor"));
+valor2 = Number(prompt("Ingresa otro valor"));
+
+function numero_mayor(valor1, valor2){
+  if (valor1 >> valor2) {
+    return valor1;
+  } return valor2;
+}
+
+
+ console.log("El numero mayor es " + numero_mayor(valor1,valor2))
+
+var x = Number(prompt("Elige un primer numero"));
+var y = Number(prompt("Elige el segundo numero"));
+
+var resultado = function comparacion(x, y){
+  if (x > y) {
+    console.log("El primer numero es mayor " + x)
+   } else if (x === y) {
+    console.log(x + " & " + y + " Son iguales")
+   } else if (x < y) {
+     console.log("El segundo numero es mayor " + y)
+   }
+}
+
+console.log(resultado)
+
+
+var base = Number(prompt("Escribe la base"))
+var exponente = Number(prompt("Escribe el exponente"))
+
+function power(base, exponente) {
+  var x = 1;
+  for(var i = 0; i < exponente; i++) {
+  x = x * base
+  }
+  return x
+}
+
+console.log(power(base, exponente))*/
+
+var base = Number(prompt("Escribe la base"))
+var exponente = Number(prompt("Escribe el exponente"))
+
+var x = 1
+
+function power(base, exponente) {
+  while(q <= exponente) {
+    x = x * base
+    q++}
+    return x
+}
+
+console.log(power(base, exponente))
